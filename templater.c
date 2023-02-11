@@ -81,7 +81,7 @@ char *asprintf(char *template, char *insert) {
     out     = calloc(sizeof(char), totlen);
     sprintf(out, template, insert);
 
-    return	(out);
+    return (out);
 }
 
 char *cut_name(char *filename) {
